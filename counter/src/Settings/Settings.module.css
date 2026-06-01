@@ -1,0 +1,16 @@
+.settingValue{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+}
+
+.input.error{
+    color: #8f0e0e;
+    outline-color: #8f0e0e;
+    background-color: rgba(227, 145, 145, 0.57);
+}
